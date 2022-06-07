@@ -22,3 +22,17 @@ body{
     background-color: var(--rosa-claro);
     color: var(--marrom);
 }
+
+.navbar{
+    background-color: var(--marrom);
+    color: var(--rosa-claro);
+    padding: .5rem 2rem;
+}
+
+.navbar-nav li{
+    padding-left: 1rem;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+}
