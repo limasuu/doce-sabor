@@ -48,3 +48,14 @@ body{
     text-shadow: .1rem .1rem 1rem var(--preto);
     background-color: var(--sombra);    
 }
+
+
+.duas-colunas{ 
+    padding: 2rem 0;
+
+    font-size: 1.5rem;
+}
+
+hr{
+    border-color: var(--rosa-escuro);
+}
