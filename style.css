@@ -52,10 +52,34 @@ body{
 
 .duas-colunas{ 
     padding: 2rem 0;
+}
 
+.duas-colunas, .card{ 
     font-size: 1.5rem;
 }
 
 hr{
     border-color: var(--rosa-escuro);
+}
+
+.card{
+    border-color: var(--marrom);
+    margin: 1rem 0;
+}
+
+.card-body{
+    background-color: var(--rosa-claro);
+}
+
+.btn-outline-secondary{
+    color: var(--marrom);
+    border-color: var(--marrom);
+    transition: .7s;
+}
+
+.btn-outline-secondary:hover{
+    background-color: var(--marrom);
+    border-color: var(--marrom);
+    color: var(--rosa-claro);
+    transition: .7s;
 }
