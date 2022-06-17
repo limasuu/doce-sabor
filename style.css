@@ -83,3 +83,20 @@ hr{
     color: var(--rosa-claro);
     transition: .7s;
 }
+
+.social a{
+    font-size: 5rem;
+    padding: 3rem;
+}
+
+.fa-facebook, .fa-instagram, 
+.fa-tiktok, .fa-youtube{
+    color: var(--vermelho-padrao);
+    transition: .7s;
+}
+
+.fa-facebook:hover, .fa-instagram:hover, 
+.fa-tiktok:hover, .fa-youtube:hover{
+    color: var(--vermelho-claro);
+    transition: .7s;
+}
