@@ -54,7 +54,7 @@ body{
     padding: 2rem 0;
 }
 
-.duas-colunas, .card{ 
+.duas-colunas, .card, footer{ 
     font-size: 1.5rem;
 }
 
@@ -99,4 +99,10 @@ hr{
 .fa-tiktok:hover, .fa-youtube:hover{
     color: var(--vermelho-claro);
     transition: .7s;
+}
+
+footer{
+    background-color: var(--marrom);
+    color: var(--rosa-claro);
+    padding: 2rem 0 1rem 0;
 }
