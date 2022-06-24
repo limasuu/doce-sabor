@@ -142,3 +142,18 @@ footer{
     font-weight: bold;
 }
 
+
+@media only screen and (max-width: 992px){
+    .duas-colunas h1, .card h1{ 
+        font-size: 150%;
+    }
+
+    .social a{
+        font-size: 4rem;
+        padding: 2rem;
+    }
+
+    .cardapio{
+        width: 100%;
+    }    
+}
