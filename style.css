@@ -177,3 +177,21 @@ footer{
     }
 }
 
+@media only screen and (max-width: 576px){
+    .carousel-caption h1{
+        font-size: 2.5rem;
+    }  
+
+    .carousel-indicators{
+        display: none;
+    }
+
+    .display-4{
+        font-size: 200%;
+    }
+
+    .social a{
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+}
