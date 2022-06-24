@@ -157,3 +157,23 @@ footer{
         width: 100%;
     }    
 }
+
+@media only screen and (max-width: 768px){
+    .carousel-caption h1{
+        font-size: 3.5rem;
+    }    
+
+    .botao-topo{
+        display: none;
+    }
+
+    .display-4{
+        font-size: 250%;
+    }
+
+    .social a{
+        font-size: 3rem;
+        padding: 1.5rem;
+    }
+}
+
